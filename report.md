@@ -7,7 +7,7 @@ The agent uses a standard DQN algorithm consisting of a local and target network
 
 ### Experience Replay
 Experience replay is also used to combat correlations in the training data. 
-It essentially collects a database of previous examples to learn from and is inspired by supervised learning. A replay buffer is used to store a number of previous examples and is sampled at random. This prevents high oscillations and reduces the risk of divergence. The replay buffer consists of tuples each containing ```<states,actions,reward,next state>```. 
+It essentially collects a database of previous examples to learn from and is inspired by supervised learning. A replay buffer is used to store a number of previous examples and is sampled at random. This prevents high oscillations and reduces the risk of divergence. The replay buffer consists of tuples each containing ```<states,actions,reward,next state>```. In this simler project ER does not make a real difference. 
 
 
 ### Epsilon Greedy Mechanism
@@ -54,3 +54,11 @@ The agent achieves the required score of 13.0 after about 510 episodes. However 
 The image of the Rainbow paper by DeepMind shows the improvement that Rainbow achieves over the use of sinlge methods on 57 Atari Games. Both convergence and final performance significantly improve.
 
 ![rainbow](rainbow.png)
+
+#### Useful Links 
+- [Experience replay and double learning](https://jaromiru.com/2016/11/07/lets-make-a-dqn-double-learning-and-prioritized-experience-replay/)
+- [PER implementation](https://github.com/Damcy/prioritized-experience-replay)
+- [PER paper](https://arxiv.org/abs/1511.05952)
+- [DeepRL doesn't work yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
+- [Rainbow demistifiying](https://medium.com/intelligentunit/conquering-openai-retro-contest-2-demystifying-rainbow-baseline-9d8dd258e74b)
+- [Rainbow paper](https://arxiv.org/abs/1710.02298)
