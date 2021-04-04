@@ -83,3 +83,8 @@ Then place the file in the DRLND GitHub repository, in the p1_navigation/ folder
 
 ## Instructions 
 For running the code refer to the markdown comments in the Navigation.ipynb file. 
+
+A checkpoint files trained for 624 episodes is provided. It can be loaded by calling : 
+```python 
+agent.qnetwork_local.load_state_dict(torch.load('checkpoint.pth')
+```
