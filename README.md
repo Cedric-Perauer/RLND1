@@ -78,7 +78,6 @@ Then place the file in the DRLND GitHub repository, in the p1_navigation/ folder
 
 [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip) 
 
-[Windows (64-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 
 ## Instructions 
